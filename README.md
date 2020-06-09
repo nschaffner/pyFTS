@@ -27,10 +27,10 @@ Please follow the steps below to run the server.c and client.py programs.
 3) In the second terminal, log into flip2 and run the following command: 
     chmod +x client.py 
 
-4a) If you would like to list the current directory's contents where server.c is located, type the following command:
+4) If you would like to list the current directory's contents where server.c is located, type the following command:
     python client.py flip1 <server port #> -l <new port #>
 
-4b) If you would like to get the contents of a file where server.c is located, type the following command:
+5) If you would like to get the contents of a file where server.c is located, type the following command:
     python client.py flip1 <server port #> -g <file name> <new port #>
 
 
