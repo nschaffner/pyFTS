@@ -20,11 +20,11 @@ This program is a simple file transfer system with a file transfer server and a 
 Please follow the steps below to run the server.c and client.py programs.
 1) Put server.c and client.py into 2 different directories
 
-2) In the first terminal, log into flip1 and run the following 2 commands: 
+2) In the first terminal, log into flip1 and run the following 2 commands in the directory containing the server.c file: 
     gcc -o server server.c 
     ./server <port #>
 
-3) In the second terminal, log into flip2 and run the following command: 
+3) In the second terminal, log into flip2 and run the following command in the directory containing the client.py file: 
     chmod +x client.py 
 
 4) If you would like to list the current directory's contents where server.c is located, type the following command:
