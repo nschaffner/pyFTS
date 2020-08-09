@@ -24,7 +24,7 @@ Please follow the steps below to run the server.c and client.py programs.
     gcc -o server server.c\
     ./server <port #>
 
-3) In the second terminal, log into flip2 and run the following command in the directory containing the client.py file:\ 
+3) In the second terminal, log into flip2 and run the following command in the directory containing the client.py file:\
     chmod +x client.py 
 
 4) If you would like to list the current directory's contents where server.c is located, type the following command:\
